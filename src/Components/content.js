@@ -5,8 +5,8 @@
 const Content = [
 {   id:0, 
     title: "About Me",
-    content: "Thank you for visiting me profile page. After 9 years in the military then 12 years in the health and fitness industry I have retrained as a developer with the School of Code.",
-    content2: "I love the challenge of endurance sport and have cycled form Lands End to John O'Graots, completed a 50mile ultra marathon  and an Ironman Triathlon. I am currently training for a 100 mile Ultra marathon."
+    content: "Throughout my career problem solving has always played a major part and I have shown that adopting a flexible and open-minded approach to tasks and challenges allows me to get the best outcomes. After leaving school I served in the British Army for 9 years as a telecommunications engineer during this I learned to solve problems while working under pressure. After leaving the forces I became a self-employed personal trainer and sports massage therapist I had to constantly adapt to meet my client's needs and deliver a quality service. ",
+    content2: "Providing solutions for people's needs has been at the heart of my career and I'm able to quickly build rapport and establish effective working relationships. When working in a team I bring a positive attitude and leadership.I applied for a place on the School of Code Bootcamp and gained one of 150 places from over 2000 applicants. The first stage of my journey has just finished after 16 awesome weeks. The next stages are yet to be determined but I'm excited and ready for whatever lies ahead. Now in tech, I have a hunger to develop my own knowledge and skills and to be able to reach more people and help find solutions for them."
 
 },
 
@@ -23,6 +23,7 @@ const Content = [
 
 {   id:3,
     title: "Connect",
+    content:'If you would like to contact me directly please feel free to leave you details here. Alternativly click the Linked In icon to and add me as a contact.',
     }
 ]
 

@@ -43,15 +43,15 @@ return<div>
   dotListClass="custom-dot-list-style"
  
 >
-   <ProjectCard
-        title={Projects[0].title}
-        img={'/Med.PNG'}
-        link={Projects[0].link}
+      <ProjectCard
+        title={Projects[4].title}
+    img={'/untrodden.PNG'}
+    link={Projects[4].link}
       />
       <ProjectCard
-        title={Projects[1].title}
-        img={'/ToDo.PNG'}
-        link={Projects[1].link}
+            title={Projects[3].title}
+        img={'/GetaNote.PNG'}
+        link={Projects[3].link}
       />
       <ProjectCard
         title={Projects[2].title}
@@ -59,17 +59,19 @@ return<div>
         link={Projects[2].link}
       />
       <ProjectCard
-    
-        title={Projects[3].title}
-        img={'/GetaNote.PNG'}
-        link={Projects[3].link}
+        title={Projects[1].title}
+        img={'/ToDo.PNG'}
+        link={Projects[1].link}
       />
-        <ProjectCard
-    
-    title={Projects[4].title}
-    img={'/BantIts.PNG'}
-    link={Projects[4].link}
+   <ProjectCard
+        title={Projects[0].title}
+        img={'/Med.PNG'}
+        link={Projects[0].link}
       />
+      
+      
+      
+     
 </Carousel>
 </div>
 

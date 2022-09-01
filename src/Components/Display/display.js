@@ -1,14 +1,12 @@
 
-import linkedin from '../Links/linkedin.png'
-import Form from "../Form/form";
 import MyCarousel from "../Carousel/Carousel";
 import LogoDisplay from "../Logo Display/logoDisplay";
-import ProjectsDescription from "../ProjectsDescription/projectDescription";
+
 
 export default function Display({ display }) {
   return (
     <section>
-      <h3>{display.title}</h3>
+      <h2>{display.title}</h2>
       <p>{display.content}</p>
       <p>{display.content2}</p>
       {display.id === 1 ?  <section className="projects-display" >
@@ -25,11 +23,17 @@ export default function Display({ display }) {
               target="_blank"
               rel="noreferrer"
             >
-              <img className="connect-icon" src={linkedin} alt="linkedin" />
+              <img className="connect-icon" src='/linkedin.PNG' alt="linkedin" />
+              
             </a>
+            <a  
+              href="https://github.com/GLYNKNIGHT" 
+              target='_blank' 
+              rel="noreferrer" >  
+              <img className='link-icon' src='/github.PNG' alt="github" /></a>
           </div>
         </div> 
-        <Form className="form"/>
+       
               </section>
       ) : null}
       {display.id === 2 ? (<LogoDisplay/>): null }

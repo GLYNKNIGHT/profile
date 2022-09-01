@@ -6,7 +6,6 @@ import postgresql_icon from './postgresql_icon.png'
 import js_node_icon from './js_node_icon.png'
 import { useContext } from 'react'
 import {LogoDisplayStyle} from '../App/context'
-import github from '../Links/github.png'
 import typescript from './typescript.png'
 
 
@@ -22,6 +21,6 @@ return <div className={LogoDisplay}>
     <img src={react_icon} alt="React"/>
     <img src={postgresql_icon} alt="PostgeSQL"/>
     <img src={js_node_icon} alt="PostgeSQL"/>
-    <img src={github} alt="PostgeSQL"/>
+    <img src='/github.PNG' alt="PostgeSQL"/>
 </div>
 }

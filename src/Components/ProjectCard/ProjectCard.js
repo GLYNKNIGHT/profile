@@ -4,13 +4,12 @@ import {CardStyleContext, CardImgStyle} from '../App/context.js'
 
 
 export default function ProjectCard ({title,img,link}){
-
     const cardStyle =useContext(CardStyleContext)
     const cardImgStyle = useContext(CardImgStyle)
-return <article className={cardStyle}>
+return <article className={cardStyle} >
     <img className={cardImgStyle} src={img} alt="Project" />
     <h3>{title}</h3>
-
+    <a href={link} target="blank"><button className="more-info">Find Out More</button></a>
 </article>
 
 }
